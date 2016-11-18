@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23EA8CD9BBFD30BEEB649FC5 /* libPods-MTDemo0729UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6021EA5EA9E8FC5064EEB5 /* libPods-MTDemo0729UITests.a */; };
+		2F69EDE3F1FA9A9A626FC88C /* libPods-MTDemo0729Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889FB413B6EFD6FA5D0E2E52 /* libPods-MTDemo0729Tests.a */; };
+		40A848D04E153B170BEA8744 /* libPods-MTDemo0729.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E3E28D2AA85F82A4DA50F2 /* libPods-MTDemo0729.a */; };
+		A3175D9C1D4B8293006B9854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175D9B1D4B8293006B9854 /* main.m */; };
+		A3175D9F1D4B8293006B9854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175D9E1D4B8293006B9854 /* AppDelegate.m */; };
+		A3175DA21D4B8293006B9854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DA11D4B8293006B9854 /* ViewController.m */; };
+		A3175DA51D4B8293006B9854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3175DA31D4B8293006B9854 /* Main.storyboard */; };
+		A3175DA71D4B8293006B9854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3175DA61D4B8293006B9854 /* Assets.xcassets */; };
+		A3175DAA1D4B8293006B9854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3175DA81D4B8293006B9854 /* LaunchScreen.storyboard */; };
+		A3175DB51D4B8293006B9854 /* MTDemo0729Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DB41D4B8293006B9854 /* MTDemo0729Tests.m */; };
+		A3175DC01D4B8293006B9854 /* MTDemo0729UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DBF1D4B8293006B9854 /* MTDemo0729UITests.m */; };
+		A3175DF41D4B82ED006B9854 /* DOUAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DD01D4B82ED006B9854 /* DOUAudioAnalyzer.m */; };
+		A3175DF51D4B82ED006B9854 /* DOUAudioAnalyzer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DD21D4B82ED006B9854 /* DOUAudioAnalyzer+Default.m */; };
+		A3175DF61D4B82ED006B9854 /* DOUAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DD51D4B82ED006B9854 /* DOUAudioDecoder.m */; };
+		A3175DF71D4B82ED006B9854 /* DOUAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DD71D4B82ED006B9854 /* DOUAudioEventLoop.m */; };
+		A3175DF81D4B82ED006B9854 /* DOUAudioFilePreprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DDA1D4B82ED006B9854 /* DOUAudioFilePreprocessor.m */; };
+		A3175DF91D4B82ED006B9854 /* DOUAudioFileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DDC1D4B82ED006B9854 /* DOUAudioFileProvider.m */; };
+		A3175DFA1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DDE1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.m */; };
+		A3175DFB1D4B82ED006B9854 /* DOUAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DE01D4B82ED006B9854 /* DOUAudioLPCM.m */; };
+		A3175DFC1D4B82ED006B9854 /* DOUAudioPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DE21D4B82ED006B9854 /* DOUAudioPlaybackItem.m */; };
+		A3175DFD1D4B82ED006B9854 /* DOUAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DE41D4B82ED006B9854 /* DOUAudioRenderer.m */; };
+		A3175DFE1D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DE61D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.m */; };
+		A3175DFF1D4B82ED006B9854 /* DOUAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DE91D4B82ED006B9854 /* DOUAudioStreamer.m */; };
+		A3175E001D4B82ED006B9854 /* DOUAudioStreamer+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DEB1D4B82ED006B9854 /* DOUAudioStreamer+Options.m */; };
+		A3175E011D4B82ED006B9854 /* DOUAudioVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DED1D4B82ED006B9854 /* DOUAudioVisualizer.m */; };
+		A3175E021D4B82ED006B9854 /* DOUEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DEF1D4B82ED006B9854 /* DOUEAGLView.m */; };
+		A3175E031D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DF11D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.m */; };
+		A3175E041D4B82ED006B9854 /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175DF31D4B82ED006B9854 /* DOUSimpleHTTPRequest.m */; };
+		A3175E091D4B82F9006B9854 /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E061D4B82F9006B9854 /* NSData+DOUMappedFile.m */; };
+		A3175E0A1D4B82F9006B9854 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E081D4B82F9006B9854 /* NSString+Hashing.m */; };
+		A3175E0D1D4B834F006B9854 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E0C1D4B834F006B9854 /* Track.m */; };
+		A3175E171D4B83F6006B9854 /* MTAudioDownloadProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E101D4B83F6006B9854 /* MTAudioDownloadProvider.m */; };
+		A3175E181D4B83F6006B9854 /* MTAudioHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E121D4B83F6006B9854 /* MTAudioHTTPRequest.m */; };
+		A3175E191D4B83F6006B9854 /* MTMusicFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E141D4B83F6006B9854 /* MTMusicFeature.m */; };
+		A3175E1A1D4B83F6006B9854 /* NSString+MTSH256Path.m in Sources */ = {isa = PBXBuildFile; fileRef = A3175E161D4B83F6006B9854 /* NSString+MTSH256Path.m */; };
+		A3601D911D4DD17B009F3D20 /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3601D901D4DD17B009F3D20 /* MTNavigationController.m */; };
+		A3601D961D4DD236009F3D20 /* MTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3601D931D4DD236009F3D20 /* MTCollectionViewController.m */; };
+		A3601DA01D4DD34A009F3D20 /* MTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3601D9F1D4DD34A009F3D20 /* MTCollectionViewCell.m */; };
+		A3601DA51D4DD3D4009F3D20 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3601DA21D4DD3D4009F3D20 /* play@2x.png */; };
+		A3601DA61D4DD3D4009F3D20 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3601DA31D4DD3D4009F3D20 /* pause@2x.png */; };
+		A3601DA71D4DD3D4009F3D20 /* downLoad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3601DA41D4DD3D4009F3D20 /* downLoad@2x.png */; };
+		A3601DAB1D4DD87C009F3D20 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3601DAA1D4DD87C009F3D20 /* delete@2x.png */; };
+		A38A17FA1D506D2300273588 /* MTMusicOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A38A17F91D506D2300273588 /* MTMusicOperation.m */; };
+		A38A17FE1D5071BA00273588 /* MTMusicOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38A17FD1D5071BA00273588 /* MTMusicOperationManager.m */; };
+		A3D6CA2E1D561F9200F65487 /* MTOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D6CA2B1D561F9200F65487 /* MTOperation.m */; };
+		A3D6CA2F1D561F9200F65487 /* MTOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D6CA2D1D561F9200F65487 /* MTOperationQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3175DB11D4B8293006B9854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3175D8F1D4B8293006B9854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3175D961D4B8293006B9854;
+			remoteInfo = MTDemo0729;
+		};
+		A3175DBC1D4B8293006B9854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3175D8F1D4B8293006B9854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3175D961D4B8293006B9854;
+			remoteInfo = MTDemo0729;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B25A55FB4CE0E5214A3853D /* Pods-MTDemo0729UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729UITests/Pods-MTDemo0729UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BBEDC6A1064DCAE29430163 /* Pods-MTDemo0729.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729/Pods-MTDemo0729.debug.xcconfig"; sourceTree = "<group>"; };
+		44DAB290F9E04F212A03873B /* Pods-MTDemo0729Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729Tests/Pods-MTDemo0729Tests.release.xcconfig"; sourceTree = "<group>"; };
+		45A4A794E22C4FE8675C04F4 /* Pods-MTDemo0729.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729/Pods-MTDemo0729.release.xcconfig"; sourceTree = "<group>"; };
+		638FDA1D1690DF8C8E85E3A8 /* Pods-MTDemo0729Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729Tests/Pods-MTDemo0729Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		889FB413B6EFD6FA5D0E2E52 /* libPods-MTDemo0729Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTDemo0729Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919393DF480D60AABFFECB54 /* Pods-MTDemo0729UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTDemo0729UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTDemo0729UITests/Pods-MTDemo0729UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3175D971D4B8293006B9854 /* MTDemo0729.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTDemo0729.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3175D9B1D4B8293006B9854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3175D9D1D4B8293006B9854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3175D9E1D4B8293006B9854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3175DA01D4B8293006B9854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3175DA11D4B8293006B9854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3175DA41D4B8293006B9854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3175DA61D4B8293006B9854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3175DA91D4B8293006B9854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3175DAB1D4B8293006B9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3175DB01D4B8293006B9854 /* MTDemo0729Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTDemo0729Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3175DB41D4B8293006B9854 /* MTDemo0729Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDemo0729Tests.m; sourceTree = "<group>"; };
+		A3175DB61D4B8293006B9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3175DBB1D4B8293006B9854 /* MTDemo0729UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTDemo0729UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3175DBF1D4B8293006B9854 /* MTDemo0729UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDemo0729UITests.m; sourceTree = "<group>"; };
+		A3175DC11D4B8293006B9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3175DCE1D4B82ED006B9854 /* DOUAudioAnalyzer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer_Private.h; sourceTree = "<group>"; };
+		A3175DCF1D4B82ED006B9854 /* DOUAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer.h; sourceTree = "<group>"; };
+		A3175DD01D4B82ED006B9854 /* DOUAudioAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioAnalyzer.m; sourceTree = "<group>"; };
+		A3175DD11D4B82ED006B9854 /* DOUAudioAnalyzer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioAnalyzer+Default.h"; sourceTree = "<group>"; };
+		A3175DD21D4B82ED006B9854 /* DOUAudioAnalyzer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioAnalyzer+Default.m"; sourceTree = "<group>"; };
+		A3175DD31D4B82ED006B9854 /* DOUAudioBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioBase.h; sourceTree = "<group>"; };
+		A3175DD41D4B82ED006B9854 /* DOUAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioDecoder.h; sourceTree = "<group>"; };
+		A3175DD51D4B82ED006B9854 /* DOUAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioDecoder.m; sourceTree = "<group>"; };
+		A3175DD61D4B82ED006B9854 /* DOUAudioEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioEventLoop.h; sourceTree = "<group>"; };
+		A3175DD71D4B82ED006B9854 /* DOUAudioEventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioEventLoop.m; sourceTree = "<group>"; };
+		A3175DD81D4B82ED006B9854 /* DOUAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFile.h; sourceTree = "<group>"; };
+		A3175DD91D4B82ED006B9854 /* DOUAudioFilePreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFilePreprocessor.h; sourceTree = "<group>"; };
+		A3175DDA1D4B82ED006B9854 /* DOUAudioFilePreprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFilePreprocessor.m; sourceTree = "<group>"; };
+		A3175DDB1D4B82ED006B9854 /* DOUAudioFileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFileProvider.h; sourceTree = "<group>"; };
+		A3175DDC1D4B82ED006B9854 /* DOUAudioFileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFileProvider.m; sourceTree = "<group>"; };
+		A3175DDD1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFrequencyAnalyzer.h; sourceTree = "<group>"; };
+		A3175DDE1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFrequencyAnalyzer.m; sourceTree = "<group>"; };
+		A3175DDF1D4B82ED006B9854 /* DOUAudioLPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioLPCM.h; sourceTree = "<group>"; };
+		A3175DE01D4B82ED006B9854 /* DOUAudioLPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioLPCM.m; sourceTree = "<group>"; };
+		A3175DE11D4B82ED006B9854 /* DOUAudioPlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioPlaybackItem.h; sourceTree = "<group>"; };
+		A3175DE21D4B82ED006B9854 /* DOUAudioPlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioPlaybackItem.m; sourceTree = "<group>"; };
+		A3175DE31D4B82ED006B9854 /* DOUAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioRenderer.h; sourceTree = "<group>"; };
+		A3175DE41D4B82ED006B9854 /* DOUAudioRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioRenderer.m; sourceTree = "<group>"; };
+		A3175DE51D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioSpatialAnalyzer.h; sourceTree = "<group>"; };
+		A3175DE61D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioSpatialAnalyzer.m; sourceTree = "<group>"; };
+		A3175DE71D4B82ED006B9854 /* DOUAudioStreamer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer_Private.h; sourceTree = "<group>"; };
+		A3175DE81D4B82ED006B9854 /* DOUAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer.h; sourceTree = "<group>"; };
+		A3175DE91D4B82ED006B9854 /* DOUAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioStreamer.m; sourceTree = "<group>"; };
+		A3175DEA1D4B82ED006B9854 /* DOUAudioStreamer+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioStreamer+Options.h"; sourceTree = "<group>"; };
+		A3175DEB1D4B82ED006B9854 /* DOUAudioStreamer+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioStreamer+Options.m"; sourceTree = "<group>"; };
+		A3175DEC1D4B82ED006B9854 /* DOUAudioVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioVisualizer.h; sourceTree = "<group>"; };
+		A3175DED1D4B82ED006B9854 /* DOUAudioVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioVisualizer.m; sourceTree = "<group>"; };
+		A3175DEE1D4B82ED006B9854 /* DOUEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGLView.h; sourceTree = "<group>"; };
+		A3175DEF1D4B82ED006B9854 /* DOUEAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGLView.m; sourceTree = "<group>"; };
+		A3175DF01D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUMPMediaLibraryAssetLoader.h; sourceTree = "<group>"; };
+		A3175DF11D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUMPMediaLibraryAssetLoader.m; sourceTree = "<group>"; };
+		A3175DF21D4B82ED006B9854 /* DOUSimpleHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUSimpleHTTPRequest.h; sourceTree = "<group>"; };
+		A3175DF31D4B82ED006B9854 /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
+		A3175E051D4B82F9006B9854 /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
+		A3175E061D4B82F9006B9854 /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
+		A3175E071D4B82F9006B9854 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		A3175E081D4B82F9006B9854 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		A3175E0B1D4B834F006B9854 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		A3175E0C1D4B834F006B9854 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		A3175E0F1D4B83F6006B9854 /* MTAudioDownloadProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAudioDownloadProvider.h; sourceTree = "<group>"; };
+		A3175E101D4B83F6006B9854 /* MTAudioDownloadProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAudioDownloadProvider.m; sourceTree = "<group>"; };
+		A3175E111D4B83F6006B9854 /* MTAudioHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAudioHTTPRequest.h; sourceTree = "<group>"; };
+		A3175E121D4B83F6006B9854 /* MTAudioHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAudioHTTPRequest.m; sourceTree = "<group>"; };
+		A3175E131D4B83F6006B9854 /* MTMusicFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMusicFeature.h; sourceTree = "<group>"; };
+		A3175E141D4B83F6006B9854 /* MTMusicFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMusicFeature.m; sourceTree = "<group>"; };
+		A3175E151D4B83F6006B9854 /* NSString+MTSH256Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MTSH256Path.h"; sourceTree = "<group>"; };
+		A3175E161D4B83F6006B9854 /* NSString+MTSH256Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTSH256Path.m"; sourceTree = "<group>"; };
+		A3601D8F1D4DD17B009F3D20 /* MTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = "<group>"; };
+		A3601D901D4DD17B009F3D20 /* MTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = "<group>"; };
+		A3601D921D4DD236009F3D20 /* MTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCollectionViewController.h; sourceTree = "<group>"; };
+		A3601D931D4DD236009F3D20 /* MTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCollectionViewController.m; sourceTree = "<group>"; };
+		A3601D981D4DD26C009F3D20 /* MTConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTConstant.h; sourceTree = "<group>"; };
+		A3601D9E1D4DD34A009F3D20 /* MTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCollectionViewCell.h; sourceTree = "<group>"; };
+		A3601D9F1D4DD34A009F3D20 /* MTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCollectionViewCell.m; sourceTree = "<group>"; };
+		A3601DA21D4DD3D4009F3D20 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		A3601DA31D4DD3D4009F3D20 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		A3601DA41D4DD3D4009F3D20 /* downLoad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "downLoad@2x.png"; sourceTree = "<group>"; };
+		A3601DAA1D4DD87C009F3D20 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		A38A17F81D506D2300273588 /* MTMusicOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMusicOperation.h; sourceTree = "<group>"; };
+		A38A17F91D506D2300273588 /* MTMusicOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMusicOperation.m; sourceTree = "<group>"; };
+		A38A17FB1D50712100273588 /* MTOperationFileProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOperationFileProtocol.h; sourceTree = "<group>"; };
+		A38A17FC1D5071BA00273588 /* MTMusicOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMusicOperationManager.h; sourceTree = "<group>"; };
+		A38A17FD1D5071BA00273588 /* MTMusicOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMusicOperationManager.m; sourceTree = "<group>"; };
+		A3D6CA2A1D561F9200F65487 /* MTOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOperation.h; sourceTree = "<group>"; };
+		A3D6CA2B1D561F9200F65487 /* MTOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTOperation.m; sourceTree = "<group>"; };
+		A3D6CA2C1D561F9200F65487 /* MTOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOperationQueue.h; sourceTree = "<group>"; };
+		A3D6CA2D1D561F9200F65487 /* MTOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTOperationQueue.m; sourceTree = "<group>"; };
+		B2E3E28D2AA85F82A4DA50F2 /* libPods-MTDemo0729.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTDemo0729.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6021EA5EA9E8FC5064EEB5 /* libPods-MTDemo0729UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTDemo0729UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3175D941D4B8293006B9854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A848D04E153B170BEA8744 /* libPods-MTDemo0729.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DAD1D4B8293006B9854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F69EDE3F1FA9A9A626FC88C /* libPods-MTDemo0729Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DB81D4B8293006B9854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EA8CD9BBFD30BEEB649FC5 /* libPods-MTDemo0729UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109919016DFF0091415E0840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BBEDC6A1064DCAE29430163 /* Pods-MTDemo0729.debug.xcconfig */,
+				45A4A794E22C4FE8675C04F4 /* Pods-MTDemo0729.release.xcconfig */,
+				638FDA1D1690DF8C8E85E3A8 /* Pods-MTDemo0729Tests.debug.xcconfig */,
+				44DAB290F9E04F212A03873B /* Pods-MTDemo0729Tests.release.xcconfig */,
+				1B25A55FB4CE0E5214A3853D /* Pods-MTDemo0729UITests.debug.xcconfig */,
+				919393DF480D60AABFFECB54 /* Pods-MTDemo0729UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3175D8E1D4B8293006B9854 = {
+			isa = PBXGroup;
+			children = (
+				A3175D991D4B8293006B9854 /* MTDemo0729 */,
+				A3175DB31D4B8293006B9854 /* MTDemo0729Tests */,
+				A3175DBE1D4B8293006B9854 /* MTDemo0729UITests */,
+				A3175D981D4B8293006B9854 /* Products */,
+				109919016DFF0091415E0840 /* Pods */,
+				BA498BED02AA3FED86151875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3175D981D4B8293006B9854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3175D971D4B8293006B9854 /* MTDemo0729.app */,
+				A3175DB01D4B8293006B9854 /* MTDemo0729Tests.xctest */,
+				A3175DBB1D4B8293006B9854 /* MTDemo0729UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3175D991D4B8293006B9854 /* MTDemo0729 */ = {
+			isa = PBXGroup;
+			children = (
+				A38A17F51D50414200273588 /* Lib(需要使用的库) */,
+				A38A17F61D50416200273588 /* Demo(演示demo文件) */,
+				A3175D9A1D4B8293006B9854 /* Supporting Files */,
+			);
+			path = MTDemo0729;
+			sourceTree = "<group>";
+		};
+		A3175D9A1D4B8293006B9854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3175DA31D4B8293006B9854 /* Main.storyboard */,
+				A3175DA61D4B8293006B9854 /* Assets.xcassets */,
+				A3175DA81D4B8293006B9854 /* LaunchScreen.storyboard */,
+				A3175DAB1D4B8293006B9854 /* Info.plist */,
+				A3175D9B1D4B8293006B9854 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3175DB31D4B8293006B9854 /* MTDemo0729Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3175DB41D4B8293006B9854 /* MTDemo0729Tests.m */,
+				A3175DB61D4B8293006B9854 /* Info.plist */,
+			);
+			path = MTDemo0729Tests;
+			sourceTree = "<group>";
+		};
+		A3175DBE1D4B8293006B9854 /* MTDemo0729UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3175DBF1D4B8293006B9854 /* MTDemo0729UITests.m */,
+				A3175DC11D4B8293006B9854 /* Info.plist */,
+			);
+			path = MTDemo0729UITests;
+			sourceTree = "<group>";
+		};
+		A3175DCD1D4B82CD006B9854 /* DOU(豆瓣) */ = {
+			isa = PBXGroup;
+			children = (
+				A3175DCE1D4B82ED006B9854 /* DOUAudioAnalyzer_Private.h */,
+				A3175DCF1D4B82ED006B9854 /* DOUAudioAnalyzer.h */,
+				A3175DD01D4B82ED006B9854 /* DOUAudioAnalyzer.m */,
+				A3175DD11D4B82ED006B9854 /* DOUAudioAnalyzer+Default.h */,
+				A3175DD21D4B82ED006B9854 /* DOUAudioAnalyzer+Default.m */,
+				A3175DD31D4B82ED006B9854 /* DOUAudioBase.h */,
+				A3175DD41D4B82ED006B9854 /* DOUAudioDecoder.h */,
+				A3175DD51D4B82ED006B9854 /* DOUAudioDecoder.m */,
+				A3175DD61D4B82ED006B9854 /* DOUAudioEventLoop.h */,
+				A3175DD71D4B82ED006B9854 /* DOUAudioEventLoop.m */,
+				A3175DD81D4B82ED006B9854 /* DOUAudioFile.h */,
+				A3175DD91D4B82ED006B9854 /* DOUAudioFilePreprocessor.h */,
+				A3175DDA1D4B82ED006B9854 /* DOUAudioFilePreprocessor.m */,
+				A3175DDB1D4B82ED006B9854 /* DOUAudioFileProvider.h */,
+				A3175DDC1D4B82ED006B9854 /* DOUAudioFileProvider.m */,
+				A3175DDD1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.h */,
+				A3175DDE1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.m */,
+				A3175DDF1D4B82ED006B9854 /* DOUAudioLPCM.h */,
+				A3175DE01D4B82ED006B9854 /* DOUAudioLPCM.m */,
+				A3175DE11D4B82ED006B9854 /* DOUAudioPlaybackItem.h */,
+				A3175DE21D4B82ED006B9854 /* DOUAudioPlaybackItem.m */,
+				A3175DE31D4B82ED006B9854 /* DOUAudioRenderer.h */,
+				A3175DE41D4B82ED006B9854 /* DOUAudioRenderer.m */,
+				A3175DE51D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.h */,
+				A3175DE61D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.m */,
+				A3175DE71D4B82ED006B9854 /* DOUAudioStreamer_Private.h */,
+				A3175DE81D4B82ED006B9854 /* DOUAudioStreamer.h */,
+				A3175DE91D4B82ED006B9854 /* DOUAudioStreamer.m */,
+				A3175DEA1D4B82ED006B9854 /* DOUAudioStreamer+Options.h */,
+				A3175DEB1D4B82ED006B9854 /* DOUAudioStreamer+Options.m */,
+				A3175DEC1D4B82ED006B9854 /* DOUAudioVisualizer.h */,
+				A3175DED1D4B82ED006B9854 /* DOUAudioVisualizer.m */,
+				A3175DEE1D4B82ED006B9854 /* DOUEAGLView.h */,
+				A3175DEF1D4B82ED006B9854 /* DOUEAGLView.m */,
+				A3175DF01D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.h */,
+				A3175DF11D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.m */,
+				A3175DF21D4B82ED006B9854 /* DOUSimpleHTTPRequest.h */,
+				A3175DF31D4B82ED006B9854 /* DOUSimpleHTTPRequest.m */,
+				A3175E051D4B82F9006B9854 /* NSData+DOUMappedFile.h */,
+				A3175E061D4B82F9006B9854 /* NSData+DOUMappedFile.m */,
+				A3175E071D4B82F9006B9854 /* NSString+Hashing.h */,
+				A3175E081D4B82F9006B9854 /* NSString+Hashing.m */,
+			);
+			name = "DOU(豆瓣)";
+			sourceTree = "<group>";
+		};
+		A3175E0E1D4B83D6006B9854 /* MT(自定义封装) */ = {
+			isa = PBXGroup;
+			children = (
+				A3175E0F1D4B83F6006B9854 /* MTAudioDownloadProvider.h */,
+				A3175E101D4B83F6006B9854 /* MTAudioDownloadProvider.m */,
+				A3175E111D4B83F6006B9854 /* MTAudioHTTPRequest.h */,
+				A3175E121D4B83F6006B9854 /* MTAudioHTTPRequest.m */,
+				A3175E131D4B83F6006B9854 /* MTMusicFeature.h */,
+				A3175E141D4B83F6006B9854 /* MTMusicFeature.m */,
+				A3175E151D4B83F6006B9854 /* NSString+MTSH256Path.h */,
+				A3175E161D4B83F6006B9854 /* NSString+MTSH256Path.m */,
+			);
+			name = "MT(自定义封装)";
+			sourceTree = "<group>";
+		};
+		A346CB4D1D4E334F00673161 /* OperationManager(队列管理) */ = {
+			isa = PBXGroup;
+			children = (
+				A38A17FB1D50712100273588 /* MTOperationFileProtocol.h */,
+				A38A17F81D506D2300273588 /* MTMusicOperation.h */,
+				A38A17F91D506D2300273588 /* MTMusicOperation.m */,
+				A38A17FC1D5071BA00273588 /* MTMusicOperationManager.h */,
+				A38A17FD1D5071BA00273588 /* MTMusicOperationManager.m */,
+			);
+			name = "OperationManager(队列管理)";
+			sourceTree = "<group>";
+		};
+		A3601D991D4DD2B2009F3D20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3175E0B1D4B834F006B9854 /* Track.h */,
+				A3175E0C1D4B834F006B9854 /* Track.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A3601D9A1D4DD2C0009F3D20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3601D9E1D4DD34A009F3D20 /* MTCollectionViewCell.h */,
+				A3601D9F1D4DD34A009F3D20 /* MTCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A3601D9B1D4DD2C3009F3D20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3175DA01D4B8293006B9854 /* ViewController.h */,
+				A3175DA11D4B8293006B9854 /* ViewController.m */,
+				A3601D921D4DD236009F3D20 /* MTCollectionViewController.h */,
+				A3601D931D4DD236009F3D20 /* MTCollectionViewController.m */,
+				A3601D8F1D4DD17B009F3D20 /* MTNavigationController.h */,
+				A3601D901D4DD17B009F3D20 /* MTNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A3601D9C1D4DD2FD009F3D20 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A3175D9D1D4B8293006B9854 /* AppDelegate.h */,
+				A3175D9E1D4B8293006B9854 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		A3601D9D1D4DD308009F3D20 /* Common(公用属性) */ = {
+			isa = PBXGroup;
+			children = (
+				A3601D981D4DD26C009F3D20 /* MTConstant.h */,
+			);
+			name = "Common(公用属性)";
+			sourceTree = "<group>";
+		};
+		A3601DA11D4DD3C7009F3D20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3601DA21D4DD3D4009F3D20 /* play@2x.png */,
+				A3601DA31D4DD3D4009F3D20 /* pause@2x.png */,
+				A3601DA41D4DD3D4009F3D20 /* downLoad@2x.png */,
+				A3601DAA1D4DD87C009F3D20 /* delete@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A38A17F51D50414200273588 /* Lib(需要使用的库) */ = {
+			isa = PBXGroup;
+			children = (
+				A3D6CA201D5614FF00F65487 /* Test2 */,
+				A3D6CA191D55E47C00F65487 /* Test */,
+				A3175DCD1D4B82CD006B9854 /* DOU(豆瓣) */,
+				A3175E0E1D4B83D6006B9854 /* MT(自定义封装) */,
+				A346CB4D1D4E334F00673161 /* OperationManager(队列管理) */,
+				A3601D9D1D4DD308009F3D20 /* Common(公用属性) */,
+			);
+			name = "Lib(需要使用的库)";
+			sourceTree = "<group>";
+		};
+		A38A17F61D50416200273588 /* Demo(演示demo文件) */ = {
+			isa = PBXGroup;
+			children = (
+				A3601D991D4DD2B2009F3D20 /* Model */,
+				A3601D9A1D4DD2C0009F3D20 /* View */,
+				A3601D9B1D4DD2C3009F3D20 /* Controller */,
+				A3601D9C1D4DD2FD009F3D20 /* Other */,
+				A3601DA11D4DD3C7009F3D20 /* Resources */,
+			);
+			name = "Demo(演示demo文件)";
+			sourceTree = "<group>";
+		};
+		A3D6CA191D55E47C00F65487 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		A3D6CA201D5614FF00F65487 /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				A3D6CA2A1D561F9200F65487 /* MTOperation.h */,
+				A3D6CA2B1D561F9200F65487 /* MTOperation.m */,
+				A3D6CA2C1D561F9200F65487 /* MTOperationQueue.h */,
+				A3D6CA2D1D561F9200F65487 /* MTOperationQueue.m */,
+			);
+			name = Test2;
+			sourceTree = "<group>";
+		};
+		BA498BED02AA3FED86151875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E3E28D2AA85F82A4DA50F2 /* libPods-MTDemo0729.a */,
+				889FB413B6EFD6FA5D0E2E52 /* libPods-MTDemo0729Tests.a */,
+				BF6021EA5EA9E8FC5064EEB5 /* libPods-MTDemo0729UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3175D961D4B8293006B9854 /* MTDemo0729 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3175DC41D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729" */;
+			buildPhases = (
+				D890E230E4CE580A5BB16C71 /* 📦 Check Pods Manifest.lock */,
+				A3175D931D4B8293006B9854 /* Sources */,
+				A3175D941D4B8293006B9854 /* Frameworks */,
+				A3175D951D4B8293006B9854 /* Resources */,
+				559B5A928CEF0E1A51F417ED /* 📦 Embed Pods Frameworks */,
+				C3F9A4CCE37F396D16AC0AA2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTDemo0729;
+			productName = MTDemo0729;
+			productReference = A3175D971D4B8293006B9854 /* MTDemo0729.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3175DAF1D4B8293006B9854 /* MTDemo0729Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3175DC71D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729Tests" */;
+			buildPhases = (
+				C66384F66A9377C0CE7907AD /* 📦 Check Pods Manifest.lock */,
+				A3175DAC1D4B8293006B9854 /* Sources */,
+				A3175DAD1D4B8293006B9854 /* Frameworks */,
+				A3175DAE1D4B8293006B9854 /* Resources */,
+				67951C1E759FC7172264C0E3 /* 📦 Embed Pods Frameworks */,
+				1ED11A0C6B12EA5510DAD0F0 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3175DB21D4B8293006B9854 /* PBXTargetDependency */,
+			);
+			name = MTDemo0729Tests;
+			productName = MTDemo0729Tests;
+			productReference = A3175DB01D4B8293006B9854 /* MTDemo0729Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3175DBA1D4B8293006B9854 /* MTDemo0729UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3175DCA1D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729UITests" */;
+			buildPhases = (
+				9F1B6B608161206359D0A9B6 /* 📦 Check Pods Manifest.lock */,
+				A3175DB71D4B8293006B9854 /* Sources */,
+				A3175DB81D4B8293006B9854 /* Frameworks */,
+				A3175DB91D4B8293006B9854 /* Resources */,
+				BD5CC8088B0B4CD6E3E8F75B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3175DBD1D4B8293006B9854 /* PBXTargetDependency */,
+			);
+			name = MTDemo0729UITests;
+			productName = MTDemo0729UITests;
+			productReference = A3175DBB1D4B8293006B9854 /* MTDemo0729UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3175D8F1D4B8293006B9854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = meitu;
+				TargetAttributes = {
+					A3175D961D4B8293006B9854 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PK4EEXA626;
+					};
+					A3175DAF1D4B8293006B9854 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3175D961D4B8293006B9854;
+					};
+					A3175DBA1D4B8293006B9854 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3175D961D4B8293006B9854;
+					};
+				};
+			};
+			buildConfigurationList = A3175D921D4B8293006B9854 /* Build configuration list for PBXProject "MTDemo0729" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3175D8E1D4B8293006B9854;
+			productRefGroup = A3175D981D4B8293006B9854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3175D961D4B8293006B9854 /* MTDemo0729 */,
+				A3175DAF1D4B8293006B9854 /* MTDemo0729Tests */,
+				A3175DBA1D4B8293006B9854 /* MTDemo0729UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3175D951D4B8293006B9854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3601DA71D4DD3D4009F3D20 /* downLoad@2x.png in Resources */,
+				A3175DAA1D4B8293006B9854 /* LaunchScreen.storyboard in Resources */,
+				A3175DA71D4B8293006B9854 /* Assets.xcassets in Resources */,
+				A3601DA61D4DD3D4009F3D20 /* pause@2x.png in Resources */,
+				A3601DAB1D4DD87C009F3D20 /* delete@2x.png in Resources */,
+				A3601DA51D4DD3D4009F3D20 /* play@2x.png in Resources */,
+				A3175DA51D4B8293006B9854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DAE1D4B8293006B9854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DB91D4B8293006B9854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED11A0C6B12EA5510DAD0F0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTDemo0729Tests/Pods-MTDemo0729Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559B5A928CEF0E1A51F417ED /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTDemo0729/Pods-MTDemo0729-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67951C1E759FC7172264C0E3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTDemo0729Tests/Pods-MTDemo0729Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1B6B608161206359D0A9B6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5CC8088B0B4CD6E3E8F75B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTDemo0729UITests/Pods-MTDemo0729UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F9A4CCE37F396D16AC0AA2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTDemo0729/Pods-MTDemo0729-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66384F66A9377C0CE7907AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D890E230E4CE580A5BB16C71 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3175D931D4B8293006B9854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3175DFE1D4B82ED006B9854 /* DOUAudioSpatialAnalyzer.m in Sources */,
+				A3175DFA1D4B82ED006B9854 /* DOUAudioFrequencyAnalyzer.m in Sources */,
+				A3175E181D4B83F6006B9854 /* MTAudioHTTPRequest.m in Sources */,
+				A3175E171D4B83F6006B9854 /* MTAudioDownloadProvider.m in Sources */,
+				A3175E011D4B82ED006B9854 /* DOUAudioVisualizer.m in Sources */,
+				A3175DA21D4B8293006B9854 /* ViewController.m in Sources */,
+				A3D6CA2F1D561F9200F65487 /* MTOperationQueue.m in Sources */,
+				A3175DF41D4B82ED006B9854 /* DOUAudioAnalyzer.m in Sources */,
+				A3175DF91D4B82ED006B9854 /* DOUAudioFileProvider.m in Sources */,
+				A3601D911D4DD17B009F3D20 /* MTNavigationController.m in Sources */,
+				A3175DFB1D4B82ED006B9854 /* DOUAudioLPCM.m in Sources */,
+				A3175DFD1D4B82ED006B9854 /* DOUAudioRenderer.m in Sources */,
+				A3175DFC1D4B82ED006B9854 /* DOUAudioPlaybackItem.m in Sources */,
+				A38A17FE1D5071BA00273588 /* MTMusicOperationManager.m in Sources */,
+				A3175E031D4B82ED006B9854 /* DOUMPMediaLibraryAssetLoader.m in Sources */,
+				A3175DF61D4B82ED006B9854 /* DOUAudioDecoder.m in Sources */,
+				A3175E001D4B82ED006B9854 /* DOUAudioStreamer+Options.m in Sources */,
+				A3175D9F1D4B8293006B9854 /* AppDelegate.m in Sources */,
+				A3175DFF1D4B82ED006B9854 /* DOUAudioStreamer.m in Sources */,
+				A3175E0A1D4B82F9006B9854 /* NSString+Hashing.m in Sources */,
+				A3175DF51D4B82ED006B9854 /* DOUAudioAnalyzer+Default.m in Sources */,
+				A3175DF71D4B82ED006B9854 /* DOUAudioEventLoop.m in Sources */,
+				A3175E041D4B82ED006B9854 /* DOUSimpleHTTPRequest.m in Sources */,
+				A3D6CA2E1D561F9200F65487 /* MTOperation.m in Sources */,
+				A3601DA01D4DD34A009F3D20 /* MTCollectionViewCell.m in Sources */,
+				A3601D961D4DD236009F3D20 /* MTCollectionViewController.m in Sources */,
+				A3175DF81D4B82ED006B9854 /* DOUAudioFilePreprocessor.m in Sources */,
+				A3175E1A1D4B83F6006B9854 /* NSString+MTSH256Path.m in Sources */,
+				A3175E091D4B82F9006B9854 /* NSData+DOUMappedFile.m in Sources */,
+				A3175E021D4B82ED006B9854 /* DOUEAGLView.m in Sources */,
+				A3175D9C1D4B8293006B9854 /* main.m in Sources */,
+				A38A17FA1D506D2300273588 /* MTMusicOperation.m in Sources */,
+				A3175E0D1D4B834F006B9854 /* Track.m in Sources */,
+				A3175E191D4B83F6006B9854 /* MTMusicFeature.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DAC1D4B8293006B9854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3175DB51D4B8293006B9854 /* MTDemo0729Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3175DB71D4B8293006B9854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3175DC01D4B8293006B9854 /* MTDemo0729UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3175DB21D4B8293006B9854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3175D961D4B8293006B9854 /* MTDemo0729 */;
+			targetProxy = A3175DB11D4B8293006B9854 /* PBXContainerItemProxy */;
+		};
+		A3175DBD1D4B8293006B9854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3175D961D4B8293006B9854 /* MTDemo0729 */;
+			targetProxy = A3175DBC1D4B8293006B9854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3175DA31D4B8293006B9854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3175DA41D4B8293006B9854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3175DA81D4B8293006B9854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3175DA91D4B8293006B9854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3175DC21D4B8293006B9854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3175DC31D4B8293006B9854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3175DC51D4B8293006B9854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBEDC6A1064DCAE29430163 /* Pods-MTDemo0729.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTDemo0729/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A3175DC61D4B8293006B9854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A4A794E22C4FE8675C04F4 /* Pods-MTDemo0729.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MTDemo0729/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A3175DC81D4B8293006B9854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638FDA1D1690DF8C8E85E3A8 /* Pods-MTDemo0729Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTDemo0729Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTDemo0729.app/MTDemo0729";
+			};
+			name = Debug;
+		};
+		A3175DC91D4B8293006B9854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DAB290F9E04F212A03873B /* Pods-MTDemo0729Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTDemo0729Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTDemo0729.app/MTDemo0729";
+			};
+			name = Release;
+		};
+		A3175DCB1D4B8293006B9854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B25A55FB4CE0E5214A3853D /* Pods-MTDemo0729UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MTDemo0729UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTDemo0729;
+			};
+			name = Debug;
+		};
+		A3175DCC1D4B8293006B9854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919393DF480D60AABFFECB54 /* Pods-MTDemo0729UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MTDemo0729UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chengpeng.MTDemo0729UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTDemo0729;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3175D921D4B8293006B9854 /* Build configuration list for PBXProject "MTDemo0729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3175DC21D4B8293006B9854 /* Debug */,
+				A3175DC31D4B8293006B9854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3175DC41D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3175DC51D4B8293006B9854 /* Debug */,
+				A3175DC61D4B8293006B9854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3175DC71D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3175DC81D4B8293006B9854 /* Debug */,
+				A3175DC91D4B8293006B9854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3175DCA1D4B8293006B9854 /* Build configuration list for PBXNativeTarget "MTDemo0729UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3175DCB1D4B8293006B9854 /* Debug */,
+				A3175DCC1D4B8293006B9854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3175D8F1D4B8293006B9854 /* Project object */;
+}
